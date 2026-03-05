@@ -1,0 +1,26 @@
+:root {
+  --bg: #fdecec;
+  --bg-box: #ffffff;
+  --text-color: #000000;
+  --light-text-color: #8d8d8d;
+  --border-color: #8d8d8d;
+  --title-text-size: 28px;
+  --subtitle-text-size: 18px;
+  --button-text-size: 16px;
+  --default-text-size: 16px;
+  --border-radius: 10px;
+
+  font-family: Roboto, Arial;
+  font-size: var(--default-text-size);
+  color: var(--text-color);
+
+  background-color: var(--bg);
+}
+
+.dark {
+  --bg: #250000;
+  --bg-box: #301313;
+  --text-color: #ffffff;
+  --border-color: black;
+  --light-text-color: #8d8d8d;
+}

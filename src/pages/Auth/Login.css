@@ -1,0 +1,76 @@
+.login_main {
+  background-color: var(--bg-box);
+  width: 45%;
+  min-height: 600px;
+  border-radius: var(--border-radius);
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+
+  display: flex;
+  flex-direction: column;
+}
+
+.login_brand_box {
+  display: flex;
+  justify-content: center;
+  padding-top: 5%;
+  gap: 5px;
+}
+
+img {
+  border-radius: 100%;
+  border: 1px solid var(--border-color);
+}
+
+.login_brand_name {
+  font-size: var(--title-text-size);
+}
+
+.login_title {
+  font-size: var(--subtitle-text-size);
+  text-align: center;
+}
+
+.login_form {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: center;
+  font-size: var(--default-text-size);
+}
+
+.login_form_inputs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  height: fit-content;
+}
+
+.login_form_buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding-top: 5%;
+}
+
+.login_forgot {
+  margin-top: auto;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+.login_forgot_button {
+  color: var(--light-text-color);
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+}
+.login_forgot_button:hover {
+  text-decoration: underline;
+}

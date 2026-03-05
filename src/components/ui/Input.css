@@ -1,0 +1,13 @@
+.input_base_style {
+  height: 30px;
+  box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.3);
+  border: gray;
+}
+
+.input_medium_size {
+  width: 60%;
+}
+
+.input_small_size {
+  width: 30%;
+}

@@ -1,0 +1,11 @@
+{
+    "auth": {
+        "login": {
+            "title": "Sign In",
+            "user": "User",
+            "password": "Password",
+            "signin": "Sign In",
+            "forgot_password": "Forgot your password?"
+        }
+    }
+}
