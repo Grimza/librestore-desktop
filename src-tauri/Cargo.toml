@@ -1,6 +1,6 @@
 [package]
 name = "librestore-desktop"
-version = "1.0.0"
+version = "0.1.1"
 description = "Open-source Desktop Application"
 authors = ["gurinza"]
 edition = "2021"
